@@ -2,6 +2,57 @@ React is a frontend lib/framework that help to build
 single page application using component base structure.
 
 npm>node package manager
+////////////////
+JSON>javaScript Object Notation
+[
+{
+    name:"Santanu",
+    class:"UI"
+},
+{
+    name:"Keev",
+    class:"UI"
+}
+]
 
-video completed : 98
+package.json
+//////////////
+>Entry Point to application
+>Meta Data(name, description, Version)
+>Packages
+>script(start,test,build)
+
+////////////
+How to generate package.json
+////////////
+**NodeJS must be install
+>go inside the folder using cmd
+>type npm init
+>answer all questions
+>type "yes"
+
+<!-- Step to install packages -->
+
+go inside the folder using cmd
+
+npm i packagename
+
+<!-- Step to generate React APP -->
+
+#window
+//One Time Step///
+>open cmd as admin
+>npm i -g create-react-app
+
+<!-- Next Everytime you want to generate app -->
+>open cmd
+>go inside folder where you want app
+>create-react-app appname
+<!-- 
+Step to run React app -->
+>open cmd
+>go inside your app
+>npm start
+
+video completed : 99
 
