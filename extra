@@ -54,5 +54,42 @@ Step to run React app -->
 >go inside your app
 >npm start
 
-video completed : 99
+function add(a,b){
+    return (
+        <div>
+        a+b
+        </div>
+        )
+}
+add(1,2)
+
+parent > child >>> we use props to pass data
+child > Parent
+
+/////////////////
+class component
+>Logical Component
+>Use to call api, manage logic and display
+>It can maintain state
+functional component
+>Dumb component
+>Display purpose
+>It can't maintain state
+
+Hooks
+////////////
+state
+>local variable
+>any data interaction will happen through state
+>Mutable (we can change the value in state)
+props
+>Use to transport state/data
+>immutable (we can't change the data of props)
+>It can only transfer data btw the nested component.
+
+
+
+
+
+video completed : 100
 
